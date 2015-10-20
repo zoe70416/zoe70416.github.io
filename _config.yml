@@ -16,6 +16,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
+
 url: https://zoe70416.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -125,10 +126,19 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: Zoe Hsu # blog_name will be displayed in your blog page
 blog_description: My personal academic blog
 permalink: /blog/:year/:title/
+=======
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Math support
+kramdown:
+  math_engine: mathjax
 
 # Pagination
 pagination:
   enabled: true
+
 
 related_blog_posts:
   enabled: true
@@ -161,6 +171,10 @@ disqus_shortname: # put your disqus shortname
 #     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
+=======
+# Includes
+include: ['_pages']
+
 # Collections
 # -----------------------------------------------------------------------------
 
@@ -473,3 +487,8 @@ jsonresume:
   - languages
   - interests
   - references
+=======
+
+# Advanced (don't if you are not sure what it is)
+jquery_version: "1.11.1"
+katex_version: "0.1.1"
