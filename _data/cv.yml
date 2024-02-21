@@ -1,97 +1,185 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S in Data Science 
+      institution: New York University, Center for Data Science
+      year: 2022-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Machine Learning Engineer | NYUIT- HSRN Lab 
+        - Data Scientist | NYUIT- HSRN Lab 
+        - GPA, 3.7/4.0
+        - title: Core Coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Data Science, Probability and Statistics for DS, Linear Algebra,  Machine Learning, Big Data, Deep learning,  Computer Vision, Natural Language Processing, Deep Learning in Medicine
+    - title: B.S in Medical Laboratory Science and Biotechnology
+      institution: Taipei Medical University, Taiwan
+      year: 2016-2020
       description:
-        - Description 1.
-        - Description 2.
+        - GPA, 3.9/4.0
+        - title: Core Coursework
+          contents:
+          - Biochemistry, Molecular Biology, Cell Biology, Microbiology, Immunology, Genetics,.., etc. 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Machine Learning Engineer
+      institution: New York University IT- HSRN Lab (New York)
+      year: 2023- 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built a high-performing unsupervised Pytorch Autoencoder in Python, achieving a 73% F1 score for network anomaly detection associated with malicious behavior. 
+        - Create test applications that ingest unstructured data from the network via stream processing using script. 
+        - Implemented MLOps best practices with MLflow, streamlining the machine learning workflow.
+        - Deployed the best-perform model as the real-world AI solution following MLOps best practice.
+    - title: Data Scientist      
+      institution: New York University IT- HSRN Lab (New York)
+      year: 2023 
       description:
-        - Description 1.
-        - Description 2.
+        - Performed exploratory data analysis, preprocessing and feature engineering on a 100GB dataset. 
+        - Built/Tested different anomaly detection algorithms (Autoencoder and Isolation Forest). 
+        - Use Docker and Kubernetes to deploy and manage containerized applications. 
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Commercial Analytics Intern , 3 months
+      institution: Medidata Solutions Inc (Medidata), a subsidiary of Dassault Systemes SE (New York)
+      year: 2023
       description:
+        - Leveraged analytical expertise to optimize marketing strategies for pharmaceutical companies (customers).
+        - Developed engaging data visualizations, including Tableau dashboards and charts, to convey complex data trends and facilitate stakeholder data interpretation effectively. 
+        - Collaborated across teams to decipher complex data and gain comprehensive insights.
+        - Utilized SQL for data extraction and transformation into time-series data, implementing object-oriented programming in Python for data preprocessing and balancing.
+        - Experience working with large, complex datasets, including data from multiple sources, to extract insights and drive strategic decision-making.
+        - Applied tree-based marketing models to identify high-impact media channels, enabling strategic and targeted customer engagement.
+        - Constructed a data pipeline using dbt for streamlined data processing and analysis. 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Data Visualization Specialist Volunteer
+      institution: Viz for Social Good
+      year: 2022
+      description:
+      - Tools- Tableau Online
+      - Create visualized content using Tableau, in order to communicate to key stakeholders to raise awareness for social issues and inspire support for non-profit institutions.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Medical Technician/ Medical Data Management
+      institution: aetherAI, Taipei, Taiwan 
+      year: 2018-2022
+      description : 
+      - Conducted SQL analysis on 1M labeled data, elevating prediction model precision.
+      - Pioneered aetherAI's HEMA project and oversaw clinical trial data management and familiar with ICD-10.
+      - Collaborated across departments to facilitate clinical validation processes for FDA approval.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Research Assistant
+      institution: Sleep Center of Taipei Medical University Shuang Ho Hospital, Taipei, Taiwan
+      year: 2018-2022
+      description : 
+      - Undertook the preprocess (data wrangling and data cleaning) of structured and unstructured sleep data from 1602 patients with Python. 
+      - Performed statistical analysis, such as the Shapiro-Wilk test and the Kruskal Wallis H test using Python and SPSS. 
+      - Conducted various machine learning approaches (including logistic regression, random forest, K-nearest neighbors, naive Bayes, and support vector machine) to classify different subtypes of sleep disorders with over 80% accuracy, using Python and scikit-learn. 
+      - Optimized internal clinical decisions with the developed model. 
+      - Published a machine learning article in Diagnostics, 2021, as the second author. 
 
-- title: Academic Interests
+
+- title: Projects 
   type: nested_list
   contents:
-    - title: Topic 1.
+     - title: Image Captioning with CNN and LSTM
+      items: 
+        - Tools- Python, PyTorch, CNN, LSTM
+        - Developed a deep learning model using CNN and LSTM to generate captions for images. 
+        - Utilized transfer learning with a pre-trained DenseNet -121 model to extract image features and LSTM to generate captions.
+
+    - title: Life Expectancy Prediction 
+      items: 
+        - Tools- Python, AWS, S3, Sagemaker
+        - Uploaded and updated the dataset on AWS S3 for efficient storage.
+        - Utilized XGBoost regression using Sagemaker to train a predictive model, obtaining a remarkable 90% r-squared score for life expectancy forecasting.
+    
+    - title: Video Prediction using Combined PredNet and Unet
+      items: 
+        - Tools- Python, PyTorch, PredNet, U-Net
+        - Implemented a combined PredNet and Unet model to harness sequential and spatial learning.
+        - Built combined model PredNet and Unet having the results of Jaccard Index 0.2 
+
+    - title: Chatbot for NYU CDS Website using OpenAI's GPT-3
+      items: 
+        - Tools- Python, Langchain, LLM, OpenAI's GPT-3
+        - Utilized Langchain to scrape and store text data in a vector database.
+        - Leveraged OpenAI's Language Model (LLM) to create a high-performing chatbot.
+        - Applied optimization techniques to ensure precise and contextually relevant responses
+
+    - title: Sentiment Analysis with Generative AI using IMDB dataset
+      items: 
+        - Tools- BERT, Hugging Face, PyTorch 
+        - Enhanced BERT-based model for sentiment analysis using Hugging Face's Transformers. 
+        - Designed data transformations to enhance model performance, achieving a 92% accuracy rate.
+
+    - title: Recommendation system based on the ListenBrainz Dataset 
+      items: 
+        - Tools- Python, Spark, Pyspark
+        - Conducted Spark transformations (Pyspark) to perform large data analysis and uncover customer behavior and preferences. 
+        - Employed Spark's alternating least squares (ALS) algorithm to construct latent factor representations for users and items, surpassing the popularity-based baseline model by 0.5 (MAP@100, Mean Average Precision at 100).
+    
+    - title: EDAs and Predictive Modeling for Medical Insurance Costs
+      items: 
+        - Tools- Python, predictive models (linear regression), Matplotlib, Seaborn
+        - Conducted exploratory data analysis (EDA) to identify key factors influencing medical insurance costs.
+        - Developed predictive models using regularized linear regression(Ridge, Lasso, Elastic Net), achieving an 63% (r-squared value) in predicting the medical insurance price.
+
+    - title: Storage Optimization for Commerce Retailer Data 
+      items: 
+        - Tools- SQL, Spark-SQL, Hadoop
+        - Revamped storage procedures, harnessing advanced methodologies like Parquet, resulting in a substantial boost in Spark query (Spark-SQL) speeds.
+        - Conducted extensive experiments, evaluating optimization strategies for scalability across diverse data sizes (ranging from 588 KB to 5.88 GB). 
+   
+- title: Skills and Tools
+  type: nested_list
+  contents:
+    - title: Coding
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, SQL, R, SAS
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Pandas, Numpy, Scikit-learn, PyTorch, TensorFlow, Keras
+    - title: Data Visualization
+      items:
+        - Tableau, Matplotlib, Seaborn, Plotly
+    - title: Tools
+      items:
+        - Cloud Computing-  AWS, Sagemaker, S3
+        - MLOPs - Docker, Kubernetes, mlflow
+        - Big Data- Spark, PySpark Hadoop, dbt
+    - title: Others
+      items:
+        - Git, Github, GitLab
+        - Linux
+        - VS Code, Jupyter Notebook
+
+
+- title: Ongoing Research
+  type: nested_list
+  contents:
+    - title: Anomaly Detection
+      items:
+        - Unsupdervised Machine Learning
+        - Deep Learning
+        - ML Deployement
+        - Distributed Systems
+    - title: Image Captioning 
+      items:
+        - Natural Language Processing
+        - Generative Models
+        - Computer Vision
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Badminton, Muay Thai, Museum Hopping, Photography
