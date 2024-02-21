@@ -32,12 +32,6 @@ to predict future video frames and utilizes U-Net to create segmentation masks
 for these predictions. This synergistic application provides a detailed analysis of
 video content, capturing both spatial and temporal dimensions comprehensively.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/CLEVR.jpeg
-    ---
 
 ## Model Architecture 
 

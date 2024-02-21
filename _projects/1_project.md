@@ -2,19 +2,12 @@
 layout: page
 title: Network Intrusion Detection Systems Using Machine Learning
 description: Buiding a network intrusion detection system (NIDS) using machine learning methods
-img: assets/NIDS_hsrn.png
+img: assets/NIDS.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
+
 ---
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/NIDS.jpg
-    ---
-
 
 ## Problem & Definition
 Network Intrusion Detection poses a challenge as it can be framed either as a binary classification task (benign vs. malicious) or a multi-class classification task (DoS vs. DDoS, etc.). Given the difficulty in obtaining labels for real datasets and the current lack of necessity for identifying different attack types in HSRN, we categorize this problem as an unsupervised binary classification case.
@@ -24,23 +17,23 @@ Network Intrusion Detection poses a challenge as it can be framed either as a bi
 The architecture that proves effective for the example dataset will also demonstrate efficacy for our real dataset.
 
 ## Research Questions and Methods: 
-1. How do deep autoencoding-based models compare to alternative paradigms for detecting network traffic anomalies?
+**How do deep autoencoding-based models compare to alternative paradigms for detecting network traffic anomalies?**
 
 We explored various ML methods (Algorithms: IF, AE, VAE, KitNET) based on unsupervised methods on similar simulated datasets (using zeek conn.log dataset) like IOT-23 and UNSW.
 
 
-2. Does using aggregated statistics of network traffic as input features enhance model performance?
+**Does using aggregated statistics of network traffic as input features enhance model performance?**
 
 Our motivation for studying network flow aggregation arises from the potential to reveal new patterns beneficial for detecting network anomalies. We performed experiments to optimize our feature space by including eight aggregation features in dimensions such as the number of unique destination IPs, max bytes, average packets, etc. However, due to dataset limitations, we could only perform these over a window of 60 seconds and with the same source IP to ensure sufficient data.
 
 
-3. What is the best way to deploy the NIDS in our real-world setting (HSRN lab)?
+**What is the best way to deploy the NIDS in our real-world setting (HSRN lab)?**
 
 The optimal model that performs the best on the simulated dataset will be employed. We will also consider the systemd structure for deployment. We believe that the adoption of systemd for deploying the NIDS can bring benefits in terms of service management, resource control, logging, and overall system efficiency.
 
 ## Results 
 
-1. Alrogithms Experiments and Feature Aggregation: 
+#### Alrogithms Experiments and Feature Aggregation: 
 We conclude that VAE and KitNET are complex enough for the current feature space, and we should expand features for improvement. The incorporation of aggregation features improves most models, but KitNET, which achieved the highest F1, does not benefit from them. 
 
 
