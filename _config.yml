@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Wei-Han
-middle_name: R.
+middle_name: 
 last_name: Hsu
 email: zoe70416@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -161,9 +161,9 @@ disqus_shortname: # put your disqus shortname
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
 
------------------------------------------------------------------------------
-Collections
------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
 
 collections:
   news:

@@ -90,7 +90,7 @@
 - title: Projects 
   type: nested_list
   contents:
-     - title: Image Captioning with CNN and LSTM
+    - title: Image Captioning with CNN and LSTM
       items: 
         - Tools- Python, PyTorch, CNN, LSTM
         - Developed a deep learning model using CNN and LSTM to generate captions for images. 
