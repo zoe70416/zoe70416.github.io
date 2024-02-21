@@ -77,4 +77,4 @@ Several limitations warrant consideration for future research endeavors. Primari
 Addressing model refinement is another critical aspect for future investigations. Incorporating a more comprehensive set of input features may enhance model accuracy. However, the retrospective nature of this study precluded the acquisition of certain factors associated with ID and OSA. Notably, interviews for questionnaire completion, including ISI, PSQI, and ESS, were omitted, and clinical symptom descriptions in medical records lacked uniformity, limiting the study's exploration of subjective variables like self-reported snoring levels, breathing pause frequencies, and other pertinent symptoms. Despite these limitations, the inclusion of such clinical responses could furnish valuable numeric features for the robust classification of ID and OSA.\\
 
 
-[Paper] (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8774350/)
+[Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8774350/)
