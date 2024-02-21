@@ -8,13 +8,6 @@ category: work
 related_publications: true
 ---
 
-<!-- Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: -->
-
-
     ---
     layout: page
     title: project
@@ -31,28 +24,28 @@ Network Intrusion Detection poses a challenge as it can be framed either as a bi
 The architecture that proves effective for the example dataset will also demonstrate efficacy for our real dataset.
 
 ## Research Questions and Methods: 
-1. How do deep autoencoding-based models compare to alternative paradigms for detecting network traffic anomalies?\\
+1. How do deep autoencoding-based models compare to alternative paradigms for detecting network traffic anomalies?
 
 We explored various ML methods (Algorithms: IF, AE, VAE, KitNET) based on unsupervised methods on similar simulated datasets (using zeek conn.log dataset) like IOT-23 and UNSW.
 
 
-2. Does using aggregated statistics of network traffic as input features enhance model performance?\\
+2. Does using aggregated statistics of network traffic as input features enhance model performance?
+
 Our motivation for studying network flow aggregation arises from the potential to reveal new patterns beneficial for detecting network anomalies. We performed experiments to optimize our feature space by including eight aggregation features in dimensions such as the number of unique destination IPs, max bytes, average packets, etc. However, due to dataset limitations, we could only perform these over a window of 60 seconds and with the same source IP to ensure sufficient data.
 
 
 3. What is the best way to deploy the NIDS in our real-world setting (HSRN lab)?
 
-The optimal model that performs the best on the simulated dataset will be employed. We will also consider the systemd structure for deployment. \\
-We believe that the adoption of systemd for deploying the NIDS can bring benefits in terms of service management, resource control, logging, and overall system efficiency.
+The optimal model that performs the best on the simulated dataset will be employed. We will also consider the systemd structure for deployment. We believe that the adoption of systemd for deploying the NIDS can bring benefits in terms of service management, resource control, logging, and overall system efficiency.
 
 ## Results 
 
 1. Alrogithms Experiments and Feature Aggregation: 
-We conclude that VAE and KitNET are complex enough for the current feature space, and we should expand features for improvement. The incorporation of aggregation features improves most models, but KitNET, which achieved the highest F1, does not benefit from them. \\
+We conclude that VAE and KitNET are complex enough for the current feature space, and we should expand features for improvement. The incorporation of aggregation features improves most models, but KitNET, which achieved the highest F1, does not benefit from them. 
 
 
-Comparison of F1 scores among the best-performing AE-based architectures:\\ 
-</div>
+Comparison of F1 scores among the best-performing AE-based architectures: 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/NIDS_AEbased_results.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -69,7 +62,7 @@ For efficient model deployment on HSRN, we opt for KitNET due to its performance
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img//NIDS_hsrn.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/NIDS_flowchart.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

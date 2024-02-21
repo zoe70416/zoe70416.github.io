@@ -29,6 +29,6 @@ Hi there!
 
 I'm Wei-Han (Zoe) Hsu, a second-year Data Science master's student at New York University. My enthusiasm lies in researching, constructing, and implementing algorithms to address tangible challenges across industries.
 
-Currently, I'm deeply engaged in pioneering anomaly detection for network flows, employing autoencoders as a machine learning engineer within NYU-IT's [HSRN, High-Speed Research Network](https://hsrn.nyu.edu/) department. Excited about the ever-evolving landscape of data science and its real-world applications, I'm committed to pushing boundaries and making meaningful contributions in both medical and cybersecurity domains.
+Currently, I'm deeply engaged in pioneering anomaly detection for network flows, employing autoencoders as a machine learning engineer within NYU-IT's [HSRN, High-Speed Research Network](https://vip.hsrn.nyu.edu/) department. Excited about the ever-evolving landscape of data science and its real-world applications, I'm committed to pushing boundaries and making meaningful contributions in both medical and cybersecurity domains.
 
 Feel free to join me on this exciting journey! You can reach out to me via Email or connect on [LinkedIn](linkedin.com/in/wei-han-zoe-hsu-62b58a158). 

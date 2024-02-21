@@ -3,7 +3,7 @@ layout: page
 title: Differentiation Model for Insomnia Disorder 
 description: a project that redirects to another website
 img: assets/img/OSA.png
-redirect: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8774350/ 
+redirect: 
 importance: 3
 category: work
 ---
@@ -25,7 +25,7 @@ All statistical analyses in this research were conducted using SPSS Version 18.0
 
 This study proposes utilizing simple features like body profiles (BMI, age, sex) and oximetry parameters to develop classification models for low-ArTH OSA, high-ArTH OSA, and ID. Applying logistic regression, kNN, naive Bayes, random forest, and SVM, our objective is to differentiate ID and OSA phenotypes accurately. Sleep parameter comparisons aim to delineate distinctive patterns across sleep disorder groups.
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/diagnostics-12-00050-g002.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -37,7 +37,7 @@ This study proposes utilizing simple features like body profiles (BMI, age, sex)
 
 In terms of the input features, two types of datasets were employed in the training stage, namely, the oximetry-based model (type 1: oximetry parameters only) and combined model (type2: oximetry and body profile parameters).
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/OSA_modelprocess.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -54,7 +54,7 @@ The confusion matrices were computed from the testing data predicted using the s
 ## Results
 Two types of models (oximetry and combined models) were established based on the machine learning approaches of LR, kNN, NB, RF, and SVM. First, in terms of the oximetry models, the overall accuracy ranged from 77.04% to 79.57%, with the RF model exhibiting the highest value compared with those of the other approaches. Similarly, with respect to the combined models, RF also outperformed the other five approaches in relation to accuracy (80.6%). Therefore, this study adopted the RF models as the selected models to classify the testing set and investigate the feature importance of both model types.
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/OSA_Classificationresults.png" title="example image" class="img-fluid rounded z-depth-1" %}
