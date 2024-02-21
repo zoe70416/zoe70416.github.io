@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: This is a growing collection of my projects. Repositories to which I'm a major contributor. Most of these works were done as a course final project.
 nav: true
 nav_order: 4

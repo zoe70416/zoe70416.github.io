@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Wei-Han
+title: Zoe Hsu # the website title (if blank, full name will be used instead)
+first_name: Wei-Han (Zoe)
 middle_name: 
 last_name: Hsu
 email: zoe70416@gmail.com
@@ -39,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Differentiation Model for Insomnia Disorder 
-description: a project that redirects to another website
+description: 
 img: assets/img/OSA.png
 redirect: 
 importance: 3

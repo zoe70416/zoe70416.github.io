@@ -2,7 +2,7 @@
 layout: page
 title: Network Intrusion Detection Systems Using Machine Learning
 description: Buiding a network intrusion detection system (NIDS) using machine learning methods
-img: assets/NIDS.jpg
+img: assets/img/NIDS.jpg
 importance: 1
 category: work
 related_publications: false
@@ -33,7 +33,7 @@ The optimal model that performs the best on the simulated dataset will be employ
 
 ## Results 
 
-#### Alrogithms Experiments and Feature Aggregation: 
+**Alrogithms Experiments and Feature Aggregation:**
 We conclude that VAE and KitNET are complex enough for the current feature space, and we should expand features for improvement. The incorporation of aggregation features improves most models, but KitNET, which achieved the highest F1, does not benefit from them. 
 
 
@@ -48,11 +48,11 @@ Comparison of F1 scores among the best-performing AE-based architectures:
     Results for AE-based methods
 </div>
 
-2. Deployment: 
+**Deployment:**
 
 For efficient model deployment on HSRN, we opt for KitNET due to its performance and stability among the AE-based methods. Historical conn.logs are individually parsed and transformed to the feature space. Since HSRN is not open to public, we assume that all network flows are normal, utilizing which we estimate a KitNET. We deploy the most optimal configuration during the research. For inference, we develop scripts that input network logs to the trained KitNET model and output an anomaly score. Both training and inference processes are automated using Systemd, a Linux system, and a service manager. 
 
-</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/NIDS_flowchart.png" title="example image" class="img-fluid rounded z-depth-1" %}
