@@ -15,7 +15,7 @@ profile:
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -27,7 +27,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi there! 
 
-I'm Wei-Han (Zoe) Hsu, a second-year Data Science master's student at New York University. My enthusiasm lies in researching, constructing, and implementing algorithms to address tangible challenges across industries.
+I'm Wei-Han (Zoe) Hsu 徐薇涵, a second-year Data Science master's student at New York University. My enthusiasm lies in researching, constructing, and implementing algorithms to address tangible challenges across industries.
 
 Currently, I'm deeply engaged in pioneering anomaly detection for network flows, employing autoencoders as a machine learning engineer within NYU-IT's [HSRN, High-Speed Research Network](https://vip.hsrn.nyu.edu/) department. Excited about the ever-evolving landscape of data science and its real-world applications, I'm committed to pushing boundaries and making meaningful contributions in both medical and cybersecurity domains.
 
