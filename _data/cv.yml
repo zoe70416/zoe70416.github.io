@@ -144,18 +144,19 @@
   contents:
     - title: Coding
       items:
-        - Python, SQL, R, SAS
-    - title: Machine Learning
+        - Python, SQL, R, SAS, C++
+    - title: Machine Learning and Deep Learning Packages
       items:
         - Pandas, Numpy, Scikit-learn, PyTorch, TensorFlow, Keras
+        - Hugging Face, NLTK, OpenCV 
     - title: Data Visualization
       items:
-        - Tableau, Matplotlib, Seaborn, Plotly
+        - Tableau, PowerBI, Matplotlib, Seaborn, Plotly
     - title: Tools
       items:
         - Cloud Computing-  AWS, Sagemaker, S3
         - MLOPs - Docker, Kubernetes, mlflow
-        - Big Data- Spark, PySpark Hadoop, dbt
+        - Big Data- Snowflake, Spark, PySpark Hadoop, dbt
     - title: Others
       items:
         - Git, Github, GitLab
