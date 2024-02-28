@@ -82,9 +82,9 @@
       description : 
       - Undertook the preprocess (data wrangling and data cleaning) of structured and unstructured sleep data from 1602 patients with Python. 
       - Performed statistical analysis, such as the Shapiro-Wilk test and the Kruskal Wallis H test using Python and SPSS. 
-      - Conducted various machine learning approaches (including logistic regression, random forest, K-nearest neighbors, naive Bayes, and support vector machine) to classify different subtypes of sleep disorders with over 80% accuracy, using Python and scikit-learn. 
-      - Optimized internal clinical decisions with the developed model. 
-      - Published a machine learning article in Diagnostics, 2021, as the second author. 
+      - Conducted various machine learning approaches (including logistic regression, random forest, K-nearest neighbors, naive Bayes, and support vector machine) to classify multiple subtypes of sleep disorders with over 80% accuracy, using Python and scikit-learn. 
+      - Optimized internal clinical decisions with the developed predictive model. 
+      - Published a machine learning article "Differentiation Model for Insomnia Disorder and the Respiratory Arousal Threshold Phenotype in Obstructive Sleep Apnea in the Taiwanese Population Based on Oximetry and Anthropometric Features" in Diagnostics, 2021, as the second author. 
 
 
 - title: Projects 
