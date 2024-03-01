@@ -53,13 +53,15 @@
       institution: Medidata Solutions Inc (Medidata), a subsidiary of Dassault Systemes SE (New York)
       year: 2023
       description:
-        - Leveraged analytical expertise to optimize marketing strategies for pharmaceutical companies (customers).
-        - Developed engaging data visualizations, including Tableau dashboards and charts, to convey complex data trends and facilitate stakeholder data interpretation effectively. 
-        - Collaborated across teams to decipher complex data and gain comprehensive insights.
+        - Leveraged analytical expertise to evaluate sales performance for pharmaceutical companies (customers). 
+        - Developed and implemented a Random Forest model for revenue prediction, conducting thorough feature importance analysis to identify the most effective promotion channels (phone, in-person, or email).
+        - Utilized curve fitting models to assess the KPI impact of various promotional channels.
+        - Allocate marketing budget across media channels, reducing expenditure on less effective channels.
+        - Anticipated a 3% improvement in targeted customer engagement through data-driven optimization.
+        - Collaborated cross-functionally to decode intricate data and extract comprehensive insights.
+        - Experience working with large, complex datasets, including data from multiple sources, to extract insights and drive strategic decision-making. 
         - Utilized SQL for data extraction and transformation into time-series data, implementing object-oriented programming in Python for data preprocessing and balancing.
-        - Experience working with large, complex datasets, including data from multiple sources, to extract insights and drive strategic decision-making.
-        - Applied tree-based marketing models to identify high-impact media channels, enabling strategic and targeted customer engagement.
-        - Constructed a data pipeline using dbt for streamlined data processing and analysis. 
+        - Created impactful data visualizations via Tableau to simplify complex information for stakeholders.
 
     - title: Data Visualization Specialist Volunteer
       institution: Viz for Social Good
