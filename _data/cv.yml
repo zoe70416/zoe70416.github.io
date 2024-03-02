@@ -37,17 +37,16 @@
       institution: New York University IT- HSRN Lab (New York)
       year: 2023- 2024
       description:
-        - Built a high-performing unsupervised Pytorch Autoencoder in Python, achieving a 73% F1 score for network anomaly detection associated with malicious behavior. 
-        - Create test applications that ingest unstructured data from the network via stream processing using script. 
-        - Implemented MLOps best practices with MLflow, streamlining the machine learning workflow.
-        - Deployed the best-perform model as the real-world AI solution following MLOps best practice.
+        - Developed scripts for the ETL process, engineered unstructured network data through stream processing. 
+        - Designed/Implemented cost-effective, novel intrusion detection system (AE model) for full data center monitoring, surpassing traditional methods limited to internet traffic.
+
     - title: Data Scientist      
       institution: New York University IT- HSRN Lab (New York)
       year: 2023 
       description:
         - Performed exploratory data analysis, preprocessing and feature engineering on a 100GB dataset. 
-        - Built/Tested different anomaly detection algorithms (Autoencoder and Isolation Forest). 
-        - Use Docker and Kubernetes to deploy and manage containerized applications. 
+        - Built/Tested SOTA anomaly detection algorithms (Tensorflow Autoencoder-based methods, unsupervised) achieving 73% F1 score in identifying malicious behavior. 
+        - Implemented MLOps best practices using MLflow, Docker and Kubernetes. 
 
     - title: Commercial Analytics Intern , 3 months
       institution: Medidata Solutions Inc (Medidata), a subsidiary of Dassault Systemes SE (New York)
