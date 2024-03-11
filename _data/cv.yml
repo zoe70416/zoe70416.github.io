@@ -114,7 +114,7 @@
         - Tools- Python, Langchain, LLM, OpenAI's GPT-3
         - Utilized Langchain to scrape and store text data in a vector database.
         - Leveraged OpenAI's Language Model (LLM) to create a high-performing chatbot.
-        - Applied optimization techniques to ensure precise and contextually relevant responses
+        - Applied optimization techniques (prompt engineering and RAG) to ensure precise and contextually relevant responses
 
     - title: Sentiment Analysis with Generative AI using IMDB dataset
       items: 
