@@ -72,4 +72,4 @@ For efficient model deployment on HSRN, we opt for KitNET due to its performance
 1. [Poster](https://drive.google.com/file/d/1WT5W0ozxse7-8da0I9eg3pDUbS8Rend7/view?usp=sharing) 
 2. [Report](https://drive.google.com/file/d/1zZKCZvjy5QBvQM6_LUrxKyitkKV5IlJL/view?usp=sharing)
 3. [Website](https://vip.hsrn.nyu.edu/)
-
+4. [HSRN](https://hsrn.nyu.edu/docs/)
