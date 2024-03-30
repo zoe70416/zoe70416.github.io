@@ -91,11 +91,11 @@
 - title: Projects 
   type: nested_list
   contents:
-    - title: Image Captioning with CNN and LSTM
+    - title: Chest Radiology Report Generation using Deep Learning
       items: 
-        - Tools- Python, PyTorch, CNN, LSTM
-        - Developed a deep learning model using CNN and LSTM to generate captions for images. 
-        - Utilized transfer learning with a pre-trained DenseNet -121 model to extract image features and LSTM to generate captions.
+        - Tools- PyTorch, BigQuery, LLM, High-Performance Computing 
+        - Employed transfer learning with BioVil-T and BLIP models to automate report generation. 
+        - Refined report output through prompt engineering for enhanced clinical utility.
 
     - title: Life Expectancy Prediction 
       items: 
@@ -113,8 +113,8 @@
       items: 
         - Tools- Python, Langchain, LLM, OpenAI's GPT-3
         - Utilized Langchain to scrape and store text data in a vector database.
-        - Leveraged OpenAI's Language Model (LLM) to create a high-performing chatbot.
-        - Applied optimization techniques (prompt engineering and RAG) to ensure precise and contextually relevant responses
+        - Leveraged OpenAI's Language Model (LLM) with RAG to develop a student-centric chatbot, enhancing user experience. 
+        - Applied optimization techniques (prompt engineerin) to ensure precise and contextually relevant responses
 
     - title: Sentiment Analysis with Generative AI using IMDB dataset
       items: 
