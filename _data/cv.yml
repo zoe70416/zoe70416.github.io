@@ -97,6 +97,12 @@
         - Employed transfer learning with BioVil-T and BLIP models to automate report generation. 
         - Refined report output through prompt engineering for enhanced clinical utility.
 
+    - title: Marketing Campaign Analysis Using A/B Testing
+      items: 
+        - Tools- Python, sklearn, Pandas, Matplotlib, Seaborn
+        - Performed A/B testing on three ad campaigns, assessing conversion and click-through rates.
+        - Recommended two campaigns for optimal conversion and impressions within budget constraints, with awareness of potential audience size variations.
+
     - title: Life Expectancy Prediction 
       items: 
         - Tools- Python, AWS, S3, Sagemaker
