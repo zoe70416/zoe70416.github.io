@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Data Scientist</p>
-    <p>Center for Data Science</p>
+    <p>M.S.in Data Science</p>
     <p>New York University</p>
 
 news: false # includes a list of news items
@@ -27,7 +27,11 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi there! 
 
-I'm Wei-Han (Zoe) Hsu 徐薇涵, a second-year Data Science master's student at New York University. My enthusiasm lies in researching, constructing, and implementing algorithms to address tangible challenges across industries.
+I'm Wei-Han (Zoe) Hsu 徐薇涵. 
+
+I am a Data Scientist with experience across industries such as healthcare, marketing, and cybersecurity. I thrive on exploring, discovering, and solving cross-industry problems. My passion lies in continuous learning, whether through interesting side projects (such as building a chatbot) or acquiring new technical and soft skills.
+
+I am skilled in handling diverse data types (text, numerical, image) and deriving insights from them, starting from exploratory data analysis (EDA), data preprocessing to feature engineering, building and deploying machine learning models. I have practical experience with technologies such as Docker, Kubernetes, and AWS.
 
 Currently, I'm deeply engaged in pioneering anomaly detection for network flows, employing autoencoders as a machine learning engineer within NYU-IT's [HSRN, High-Speed Research Network](https://vip.hsrn.nyu.edu/) department. Excited about the ever-evolving landscape of data science and its real-world applications, I'm committed to pushing boundaries and making meaningful contributions in both medical and cybersecurity domains.
 

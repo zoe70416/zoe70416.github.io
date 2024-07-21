@@ -33,24 +33,38 @@
 - title: Experience
   type: time_table
   contents:
+
+    - title: Volunteer Research Data Scientist
+      institution: NYU Langone Health
+      year: 2024
+      tools: Python, Pytorch, Diffusion Model, High-Performance Computing
+      description:
+        - Ongoing research on "Improving MRI Image Reconstruction via Generative AI" 
+
     - title: Machine Learning Engineer
       institution: New York University IT- HSRN Lab (New York)
       year: 2023- 2024
+      tools: Python, TensorFlow, MLflow, Docker, Kubernetes, High-Performance Computing
       description:
         - Developed scripts for the ETL process, engineered unstructured network data through stream processing. 
         - Designed/Implemented cost-effective, novel intrusion detection system (AE model) for full data center monitoring, surpassing traditional methods limited to internet traffic.
+        - Performed data mining, data analysis (EDA), preprocessing, and feature engineering on a 100GB dataset.
+        - Developed scripts for the ETL process, ingesting unstructured network data through the ML pipeline.
+        - Led the team to build/test SOTA anomaly detection algorithms (Tensorflow Autoencoder-based methods) achieving a 73% F1 score in identifying network anomalies related to malicious behavior across the entire NYU research network outperforming traditional methods (firewalls).
+        - Implemented MLOps best practices using MLflow, Docker, and Kubernetes.
 
-    - title: Data Scientist      
-      institution: New York University IT- HSRN Lab (New York)
-      year: 2023 
-      description:
-        - Performed exploratory data analysis, preprocessing and feature engineering on a 100GB dataset. 
-        - Built/Tested SOTA anomaly detection algorithms (Tensorflow Autoencoder-based methods, unsupervised) achieving 73% F1 score in identifying malicious behavior. 
-        - Implemented MLOps best practices using MLflow, Docker and Kubernetes. 
+    # - title: Data Scientist      
+    #   institution: New York University IT- HSRN Lab (New York)
+    #   year: 2023 
+    #   description:
+    #     - Performed exploratory data analysis, preprocessing and feature engineering on a 100GB dataset. 
+    #     - Built/Tested SOTA anomaly detection algorithms (Tensorflow Autoencoder-based methods, unsupervised) achieving 73% F1 score in identifying malicious behavior. 
+    #     - Implemented MLOps best practices using MLflow, Docker and Kubernetes. 
 
-    - title: Commercial Analytics Intern , 3 months
-      institution: Medidata Solutions Inc (Medidata), a subsidiary of Dassault Systemes SE (New York)
+    - title: Data Science/ Commercial Analytics Intern , 3 months
+      institution: Medidata Solutions Inc (Medidata)
       year: 2023
+      tools: Python, Pyspark, Snowflake, SQL, Tableau, Random Forest, AWS
       description:
         - Leveraged analytical expertise to evaluate sales performance for pharmaceutical companies (customers). 
         - Developed and implemented a Random Forest model for revenue prediction, conducting thorough feature importance analysis to identify the most effective promotion channels (phone, in-person, or email).
@@ -63,23 +77,25 @@
         - Created impactful data visualizations via Tableau to simplify complex information for stakeholders.
 
     - title: Data Visualization Specialist Volunteer
-      institution: Viz for Social Good
-      year: 2022
+      institution: Volunteer Data Analyst
+      year: 2022-2023
+      tools: Tableau Online
       description:
-      - Tools- Tableau Online
       - Create visualized content using Tableau, in order to communicate to key stakeholders to raise awareness for social issues and inspire support for non-profit institutions.
 
     - title: Medical Technician/ Medical Data Management
       institution: aetherAI, Taipei, Taiwan 
       year: 2018-2022
+      tools: SQL, Python, ICD-10 knowledge
       description : 
       - Conducted SQL analysis on 1M labeled data, elevating prediction model precision.
       - Pioneered aetherAI's HEMA project and oversaw clinical trial data management and familiar with ICD-10.
       - Collaborated across departments to facilitate clinical validation processes for FDA approval.
 
-    - title: Research Assistant
+    - title: Data Science Research Assistant 
       institution: Sleep Center of Taipei Medical University Shuang Ho Hospital, Taipei, Taiwan
       year: 2018-2022
+      tools: Python, SPSS, scikit-learn
       description : 
       - Undertook the preprocess (data wrangling and data cleaning) of structured and unstructured sleep data from 1602 patients with Python. 
       - Performed statistical analysis, such as the Shapiro-Wilk test and the Kruskal Wallis H test using Python and SPSS. 
@@ -92,60 +108,77 @@
   type: nested_list
   contents:
     - title: Chest Radiology Report Generation using Deep Learning
+      tools: Python, PyTorch, BigQuery, LLM, High-Performance Computing
       items: 
-        - Tools- PyTorch, BigQuery, LLM, High-Performance Computing 
-        - Employed transfer learning with BioVil-T and BLIP models to automate report generation. 
-        - Refined report output through prompt engineering for enhanced clinical utility.
+        - Preprocessed large amounts (567GB) of X-ray images and electric health records from MIMIC-CXR. 
+        - Applied transfer learning withBLIP-2 to automate Chest  X-ray report generation. 
+        - Enhanced report quality, achieving a BLEU-1 score of 0.34 through find-tuning and prompt engineering. 
 
-    - title: Marketing Campaign Analysis Using A/B Testing
-      items: 
-        - Tools- Python, sklearn, Pandas, Matplotlib, Seaborn
-        - Performed A/B testing on three ad campaigns, assessing conversion and click-through rates.
-        - Recommended two campaigns for optimal conversion and impressions within budget constraints, with awareness of potential audience size variations.
-
-    - title: Life Expectancy Prediction 
-      items: 
-        - Tools- Python, AWS, S3, Sagemaker
-        - Uploaded and updated the dataset on AWS S3 for efficient storage.
-        - Utilized XGBoost regression using Sagemaker to train a predictive model, obtaining a remarkable 90% r-squared score for life expectancy forecasting.
-    
     - title: Video Prediction using Combined PredNet and Unet
+      tools: Python, PyTorch, PredNet, U-Net
       items: 
-        - Tools- Python, PyTorch, PredNet, U-Net
+        - Enhance video frame prediction using a multi-model approach with PyTorch.
         - Implemented a combined PredNet and Unet model to harness sequential and spatial learning.
         - Built combined model PredNet and Unet having the results of Jaccard Index 0.2 
 
     - title: Chatbot for NYU CDS Website using OpenAI's GPT-3
+      tools: Python, Langchain, LLM, OpenAI's GPT-3 API
       items: 
-        - Tools- Python, Langchain, LLM, OpenAI's GPT-3
-        - Utilized Langchain to scrape and store text data in a vector database.
+        - Utilized Langchain to scrape unstructured data and store text data in a vector database.
         - Leveraged OpenAI's Language Model (LLM) with RAG to develop a student-centric chatbot, enhancing user experience. 
         - Applied optimization techniques (prompt engineerin) to ensure precise and contextually relevant responses
 
-    - title: Sentiment Analysis with Generative AI using IMDB dataset
+    - title: EDA & Predictive Modeling for Renewable Energy
+      tools: Python, predictive models (linear regression, decision trees, random forest), Matplotlib, Seaborn
       items: 
-        - Tools- BERT, Hugging Face, PyTorch 
-        - Enhanced BERT-based model for sentiment analysis using Hugging Face's Transformers. 
-        - Designed data transformations to enhance model performance, achieving a 92% accuracy rate.
+        - Performed exploratory data analysis (EDA), statistical analysis, and visualizations of renewable energy consumption data, including hydroelectric, geothermal, solar, and wind power sources.
+        - Built regression models (LinearRegression, DecisionTree, RandomForest) using Python with an average of 100% (r-squared value) in predicting solar power generation for effective energy planning. 
+  
 
-    - title: Recommendation system based on the ListenBrainz Dataset 
+    - title: Twitter Volume Timeseries Forecasting using AWS Sagemaker
+      tools: AWS Sagemaker, DeepAR
       items: 
-        - Tools- Python, Spark, Pyspark
-        - Conducted Spark transformations (Pyspark) to perform large data analysis and uncover customer behavior and preferences. 
-        - Employed Spark's alternating least squares (ALS) algorithm to construct latent factor representations for users and items, surpassing the popularity-based baseline model by 0.5 (MAP@100, Mean Average Precision at 100).
+        - Managed the dataset on AWS S3 and its’ infrastructure for efficient storage and rapid experimentation.  
+        - Utilized DeepAR using Sagemaker to train an auto-regressive recurrent network mode, obtaining a remarkable 0.2 MAPE score for forecasting compared to the baseline model (seasonal naive estimator). 
+
+    - title: IMDB Movie Sentiment Analysis using NLP
+      tools: Python, Pytorch, BERT, Hugging Face's Transformers
+      items: 
+        - Enhanced BERT-based model for sentiment text analysis using Hugging Face's Transformers. 
+        - Designed text transformations to enhance model performance, achieving an 89% accuracy rate.
+
+    - title: Music Recommendation syste based on the ListenBrainz Dataset 
+      tools: Python, Pyspark
+      items: 
+        - Used Spark (PySpark) to analyze big data, revealing customer behavior and preferences.
+        - Implemented Spark's ALS algorithm, outperforming the popularity-based baseline by 0.5MAP. 
     
-    - title: EDAs and Predictive Modeling for Medical Insurance Costs
+
+    # - title: Marketing Campaign Analysis Using A/B Testing
+    #   items: 
+    #     - Tools- Python, sklearn, Pandas, Matplotlib, Seaborn
+    #     - Performed A/B testing on three ad campaigns, assessing conversion and click-through rates.
+    #     - Recommended two campaigns for optimal conversion and impressions within budget constraints, with awareness of potential audience size variations.
+
+    # - title: Life Expectancy Prediction 
+    #   items: 
+    #     - Tools- Python, AWS, S3, Sagemaker
+    #     - Uploaded and updated the dataset on AWS S3 for efficient storage.
+    #     - Utilized XGBoost regression using Sagemaker to train a predictive model, obtaining a remarkable 90% r-squared score for life expectancy forecasting.
+    
+     
+    - title: EDAs and Predictive Modeling for Medical Insurance Pricing
+      tools: Python, predictive models (linear regression), Matplotlib, Seaborn
       items: 
-        - Tools- Python, predictive models (linear regression), Matplotlib, Seaborn
         - Conducted exploratory data analysis (EDA) to identify key factors influencing medical insurance costs.
-        - Developed predictive models using regularized linear regression(Ridge, Lasso, Elastic Net), achieving an 63% (r-squared value) in predicting the medical insurance price.
+        - Built regularized regression models (Ridge, Lasso, Elastic Net) using Python with an average of 70% (r-squared value) in predicting the medical insurance price.
 
     - title: Storage Optimization for Commerce Retailer Data 
+      tools: SQL, Spark-SQL, Hadoop, Parquet
       items: 
-        - Tools- SQL, Spark-SQL, Hadoop
-        - Revamped storage procedures, harnessing advanced methodologies like Parquet, resulting in a substantial boost in Spark query (Spark-SQL) speeds.
+        - Revamped storage procedures, resulting in a substantial boost in Spark query speeds.
         - Conducted extensive experiments, evaluating optimization strategies for scalability across diverse data sizes (ranging from 588 KB to 5.88 GB). 
-   
+
 - title: Skills and Tools
   type: nested_list
   contents:
@@ -162,7 +195,7 @@
     - title: Tools
       items:
         - Cloud Computing-  AWS, Sagemaker, S3
-        - MLOPs - Docker, Kubernetes, mlflow
+        - MLOPs - Docker, Kubernetes, MlFlow
         - Big Data- Snowflake, Spark, PySpark Hadoop, dbt
     - title: Others
       items:
@@ -180,11 +213,6 @@
         - Deep Learning
         - ML Deployement
         - Distributed Systems
-    - title: Image Captioning 
-      items:
-        - Natural Language Processing
-        - Generative Models
-        - Computer Vision
 
 
 - title: Other Interests

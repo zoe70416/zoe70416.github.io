@@ -4,7 +4,7 @@ title: Video Prediction
 description: Video Prediction Using Combined Model 
 img: assets/img/CLEVR.jpeg
 importance: 2
-category: work
+category: fun
 giscus_comments: false
 ---
 
