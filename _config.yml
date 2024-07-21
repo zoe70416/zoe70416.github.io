@@ -4,7 +4,7 @@
 
 title: Zoe Hsu # the website title (if blank, full name will be used instead)
 first_name: Wei-Han (Zoe)
-middle_name: 
+middle_name:
 last_name: Hsu
 email: zoe70416@gmail.com
 description: Data Scientist | Machine Learning Engineer| Data Science Enthusiast
@@ -15,7 +15,6 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
 
 url: https://zoe70416.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -130,7 +129,6 @@ permalink: /blog/:year/:title/
 # Pagination
 pagination:
   enabled: true
-
 
 related_blog_posts:
   enabled: true
@@ -454,7 +452,6 @@ vega-embed:
 vega-lite:
   version: "5.16.3"
   integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------

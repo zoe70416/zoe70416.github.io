@@ -712,46 +712,45 @@ footer.sticky-bottom {
             color: white;
           }
         }
-    &:hover {
-        text-decoration: none;
+        &:hover {
+          text-decoration: none;
         }
+      }
+    }
   }
-}
-}
 }
 
 .social a {
   color: $text-color;
 
-  &:hover { color: $theme-color; }
+  &:hover {
+    color: $theme-color;
+  }
 }
-
 
 /**
  * Blockquotes
  */
 blockquote {
-    color: $text-color;
-    border-left: 10px solid $grey-color-light;
-    padding-left: $horizontal-spacing-unit / 2;
-    font-size: 18px;
-    font-style: italic;
+  color: $text-color;
+  border-left: 10px solid $grey-color-light;
+  padding-left: $horizontal-spacing-unit / 2;
+  font-size: 18px;
+  font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
-
-
 
 /**
  * Code formatting
  */
 pre,
 code {
-    font-size: 15px;
-    border-radius: 3px;
-    background-color: $grey-color-light;
+  font-size: 15px;
+  border-radius: 3px;
+  background-color: $grey-color-light;
 }
 
 code {
@@ -762,37 +761,35 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+  padding: 8px 12px;
+  overflow-x: scroll;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
-
-
 
 /**
  * Wrapper
  */
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $horizontal-spacing-unit;
-    padding-left: $horizontal-spacing-unit;
-    @extend %clearfix;
+  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+  max-width: calc(800px - (#{$horizontal-spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $horizontal-spacing-unit;
+  padding-left: $horizontal-spacing-unit;
+  @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+    max-width: calc(800px - (#{$horizontal-spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
 }
 
 .featured-posts {

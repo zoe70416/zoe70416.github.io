@@ -25,9 +25,9 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hi there! 
+Hi there!
 
-I'm Wei-Han (Zoe) Hsu 徐薇涵. 
+I'm Wei-Han (Zoe) Hsu 徐薇涵.
 
 I am a Data Scientist with experience across industries such as healthcare, marketing, and cybersecurity. I thrive on exploring, discovering, and solving cross-industry problems. My passion lies in continuous learning, whether through interesting side projects (such as building a chatbot) or acquiring new technical and soft skills.
 
@@ -35,4 +35,4 @@ I am skilled in handling diverse data types (text, numerical, image) and derivin
 
 Currently, I'm deeply engaged in pioneering anomaly detection for network flows, employing autoencoders as a machine learning engineer within NYU-IT's [HSRN, High-Speed Research Network](https://vip.hsrn.nyu.edu/) department. Excited about the ever-evolving landscape of data science and its real-world applications, I'm committed to pushing boundaries and making meaningful contributions in both medical and cybersecurity domains.
 
-Feel free to join me on this exciting journey! You can reach out to me via Email or connect on [LinkedIn](https://www.linkedin.com/in/wei-han-zoe-hsu-62b58a158). 
+Feel free to join me on this exciting journey! You can reach out to me via Email or connect on [LinkedIn](https://www.linkedin.com/in/wei-han-zoe-hsu-62b58a158).
