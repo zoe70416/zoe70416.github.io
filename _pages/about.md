@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Stay Hungry, Stay Foolisth
+subtitle: Stay Hungry, Stay Foolish
 
 profile:
   align: right
