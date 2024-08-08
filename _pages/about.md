@@ -29,9 +29,9 @@ Hi there!
 
 I'm Wei-Han (Zoe) Hsu 徐薇涵.
 
-I am a Data Scientist with experience across industries such as healthcare, marketing, and cybersecurity. I thrive on exploring, discovering, and solving cross-industry problems. My passion lies in continuous learning, whether through interesting side projects (such as building a chatbot) or acquiring new technical and soft skills.
+I am a Data Scientist/Machine Learning Engineer with experience across industries such as healthcare, marketing, and cybersecurity. I thrive on exploring, discovering, and solving cross-industry problems. My passion lies in continuous learning, whether through interesting side projects (such as building a chatbot) or acquiring new technical and soft skills.
 
-I am skilled in handling diverse data types (text, numerical, image) and deriving insights from them, starting from exploratory data analysis (EDA), data preprocessing to feature engineering, building and deploying machine learning models. I have practical experience with technologies such as Docker, Kubernetes, and AWS.
+I am skilled in handling diverse data types (text, numerical, image) and deriving insights from them, starting from exploratory data analysis (EDA), data preprocessing to feature engineering, building and deploying machine learning models. I have practical experience with technologies for production-grade ML projects such as Docker, Kubernetes, and AWS.
 
 Currently, I'm deeply engaged in pioneering anomaly detection for network flows, employing autoencoders as a machine learning engineer within NYU-IT's [HSRN, High-Speed Research Network](https://vip.hsrn.nyu.edu/) department. Excited about the ever-evolving landscape of data science and its real-world applications, I'm committed to pushing boundaries and making meaningful contributions in both medical and cybersecurity domains.
 
