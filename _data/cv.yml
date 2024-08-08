@@ -33,7 +33,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Volunteer Research Data Scientist
+    - title: Research Data Scientist
       institution: NYU Langone Health
       year: 2024
       tools: Python, Pytorch, Diffusion Model, High-Performance Computing
@@ -43,7 +43,7 @@
     - title: Machine Learning Engineer
       institution: New York University IT- HSRN Lab (New York)
       year: 2023- 2024
-      tools: Python, TensorFlow, MLflow, Docker, Kubernetes, High-Performance Computing
+      tools: Python, Pyspark, TensorFlow, MLflow, Docker, Kubernetes, High-Performance Computing
       description:
         - Developed scripts for the ETL process, engineered unstructured network data through stream processing.
         - Designed/Implemented cost-effective, novel intrusion detection system (AE model) for full data center monitoring, surpassing traditional methods limited to internet traffic.
@@ -63,7 +63,7 @@
     - title: Data Science/ Commercial Analytics Intern , 3 months
       institution: Medidata Solutions Inc (Medidata)
       year: 2023
-      tools: Python, Pyspark, Snowflake, SQL, Tableau, Random Forest, AWS
+      tools: Python, Pyspark, MLflow, Snowflake, SQL, Tableau, Random Forest, AWS
       description:
         - Leveraged analytical expertise to evaluate sales performance for pharmaceutical companies (customers).
         - Developed and implemented a Random Forest model for revenue prediction, conducting thorough feature importance analysis to identify the most effective promotion channels (phone, in-person, or email).
@@ -75,8 +75,8 @@
         - Utilized SQL for data extraction and transformation into time-series data, implementing object-oriented programming in Python for data preprocessing and balancing.
         - Created impactful data visualizations via Tableau to simplify complex information for stakeholders.
 
-    - title: Data Visualization Specialist Volunteer
-      institution: Volunteer Data Analyst
+    - title: Data Visualization Specialist
+      institution: Viz for Social Good
       year: 2022-2023
       tools: Tableau Online
       description:
@@ -94,7 +94,7 @@
     - title: Data Science Research Assistant
       institution: Sleep Center of Taipei Medical University Shuang Ho Hospital, Taipei, Taiwan
       year: 2018-2022
-      tools: Python, SPSS, scikit-learn
+      tools: Python, SPSS, R, scikit-learn
       description:
         - Undertook the preprocess (data wrangling and data cleaning) of structured and unstructured sleep data from 1602 patients with Python.
         - Performed statistical analysis, such as the Shapiro-Wilk test and the Kruskal Wallis H test using Python and SPSS.
@@ -106,11 +106,11 @@
   type: nested_list
   contents:
     - title: Chest Radiology Report Generation using Deep Learning
-      tools: Python, PyTorch, BigQuery, LLM, High-Performance Computing
+      tools: Python, PyTorch, BigQuery, LLM, HuggingFace, High-Performance Computing
       items:
         - Preprocessed large amounts (567GB) of X-ray images and electric health records from MIMIC-CXR.
         - Applied transfer learning withBLIP-2 to automate Chest  X-ray report generation.
-        - Enhanced report quality, achieving a BLEU-1 score of 0.34 through find-tuning and prompt engineering.
+        - Enhanced report quality, achieving a BLEU-1 score of 0.34 through find-tuning(LoRa) and prompt engineering.
 
     - title: Video Prediction using Combined PredNet and Unet
       tools: Python, PyTorch, PredNet, U-Net
@@ -182,16 +182,16 @@
         - Python, SQL, R, SAS, C++
     - title: Machine Learning and Deep Learning Packages
       items:
-        - Pandas, Numpy, Scikit-learn, PyTorch, TensorFlow, Keras
+        - Pandas, Numpy, Scikit-learn, PyTorch, TensorFlow, Keras 
         - Hugging Face, NLTK, OpenCV
     - title: Data Visualization
       items:
         - Tableau, PowerBI, Matplotlib, Seaborn, Plotly
     - title: Tools
       items:
-        - Cloud Computing-  AWS, Sagemaker, S3
-        - MLOPs - Docker, Kubernetes, MlFlow
-        - Big Data- Snowflake, Spark, PySpark Hadoop, dbt
+        - Cloud Computing-  AWS (Sagemaker, S3, Bedrock, EC2, Glue)
+        - MLOPs - Docker, Kubernetes, MlFlow, Databricks
+        - Big Data- Snowflake, Spark, PySpark, Hadoop, dbt
     - title: Others
       items:
         - Git, Github, GitLab
@@ -207,6 +207,10 @@
         - Deep Learning
         - ML Deployement
         - Distributed Systems
+    - title: Improving MRI Image Reconstruction via Generative AI
+      items: 
+        - Processing and analyzing medical images (MRI images)
+        - Diffusion-based deep learning models
 
 - title: Other Interests
   type: list
