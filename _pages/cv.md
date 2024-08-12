@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: HsuWeiHan-resume.docx.pdf
+cv_pdf: HsuWeiHan-resume.pdf
 description: Curriculum Vitae
 toc:
   sidebar: left
