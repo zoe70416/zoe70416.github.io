@@ -33,6 +33,15 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Data Scientist / Machine Learning Engineer
+      institution: Lasa Health
+      year: 2024 - Present
+      tools: Python, BigQuery, Clinical Decision Support System
+      description:
+        - Built an ML-based clinical support system for 26 chronic pelvic pain conditions using XGBoost and ensemble models, achieving 0.85 AUROC scores and targeting a 30% reduction in diagnosis time.
+        - Built an automation bot using Selenium to extract standardized medical codes from public sources, cutting data extraction time from one month to three days and significantly accelerating project timelines.
+        - Preprocessed/analyzed 100 billion EHR records from Mayo Clinic using BigQuery SQL and Python, applying NLP to improve feature extraction, increasing model accuracy by 5%
+
     - title: Research Data Scientist
       institution: NYU Langone Health
       year: 2024
@@ -40,12 +49,12 @@
       description:
         - Ongoing research on "Improving MRI Image Reconstruction via Generative AI"
 
-    - title: Machine Learning Engineer/ Data Scientist
+    - title: Data Scientist
       institution: New York University IT- HSRN Lab (New York)
       year: 2023- 2024
       tools: Python, Pyspark, TensorFlow, MLflow, Docker, Kubernetes, High-Performance Computing (HPC)
       description:
-        - Performed data mining, data analysis (EDA), preprocessing, and feature engineering on a 100GB dataset. 
+        - Performed data mining, data analysis (EDA), preprocessing, and feature engineering on a 100GB dataset.
         - Developed scripts for the ETL process, engineered unstructured network data through stream processing.
         - Designed/Implemented cost-effective, novel intrusion detection system (AE model) for full data center monitoring, surpassing traditional methods limited to internet traffic.
         - Developed scripts for the ETL process, ingesting unstructured network data through the ML pipeline.
@@ -82,7 +91,7 @@
       description:
         - Create visualized content using Tableau, in order to communicate to key stakeholders to raise awareness for social issues and inspire support for non-profit institutions.
 
-    - title: Data Analyst/Medical Technician
+    - title: Data Analyst / Medical Technician
       institution: aetherAI, Taipei, Taiwan
       year: 2018-2022
       tools: SQL, Python, ICD-10 knowledge
@@ -105,13 +114,18 @@
 - title: Projects
   type: nested_list
   contents:
+    - title: 10-K Analyzer with RAG Chatbot
+      tools: Python, LLM, RAG, HuggingFace
+      items:
+        - Built a financial analysis tool combining SEC 10-K filings with Retrieval-Augmented Generation (RAG), leveraging LLMs to deliver a context-aware chatbot. Integrated NLP techniques to extract key financial metrics.
+
     - title: Credit Card Transaction Fraud Detection
       tools: Python, AWS (S3, SageMaker)
       items:
         - Conducted EDA and applied undersampling/upsampling to address class imbalance.
         - Trained classifiers (Logistic Regression, KNN, SVM, Decision Tree) using AWS S3 and SageMaker.
         - Achieved a 0.98 ROC score in detecting fraudulent transactions.
-    
+
     - title: Chest Radiology Report Generation using Deep Learning
       tools: Python, PyTorch, BigQuery, LLM, HuggingFace, High-Performance Computing
       items:
@@ -189,7 +203,7 @@
         - Python, SQL, R, SAS, C++
     - title: Machine Learning and Deep Learning Packages
       items:
-        - Pandas, Numpy, Scikit-learn, PyTorch, TensorFlow, Keras 
+        - Pandas, Numpy, Scikit-learn, PyTorch, TensorFlow, Keras
         - Hugging Face, NLTK, OpenCV
     - title: Data Visualization
       items:
@@ -215,7 +229,7 @@
         - ML Deployement
         - Distributed Systems
     - title: Improving MRI Image Reconstruction via Generative AI
-      items: 
+      items:
         - Processing and analyzing medical images (MRI images)
         - Diffusion-based deep learning models
 
