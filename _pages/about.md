@@ -29,10 +29,10 @@ Hi there!
 
 I'm Wei-Han (Zoe) Hsu 徐薇涵.
 
-I am a Data Scientist/Machine Learning Engineer with experience across industries such as healthcare, marketing, and cybersecurity. I thrive on exploring, discovering, and solving cross-industry problems. My passion lies in continuous learning, whether through interesting side projects (such as building a chatbot) or acquiring new technical and soft skills.
+I’m a Data Scientist and Machine Learning Engineer with hands-on experience across healthcare, marketing, and cybersecurity. My work bridges the gap between complex data and actionable insights, with a particular passion for building end-to-end ML solutions that drive real-world impact.
 
-I am skilled in handling diverse data types (text, numerical, image) and deriving insights from them, starting from exploratory data analysis (EDA), data preprocessing to feature engineering, building and deploying machine learning models. I have practical experience with technologies for production-grade ML projects such as Docker, Kubernetes, and AWS.
+Currently, I work at Lasa Health, a health AI startup, where I lead the development of predictive models and automation tools for clinical decision support in women’s health. From processing massive EHR datasets to deploying machine learning pipelines using tools like Docker, Kubernetes, and AWS, I specialize in transforming raw data into meaningful, scalable solutions.
 
-Currently, I'm deeply engaged in pioneering anomaly detection for network flows, employing autoencoders as a machine learning engineer within NYU-IT's [HSRN, High-Speed Research Network](https://vip.hsrn.nyu.edu/) department. Excited about the ever-evolving landscape of data science and its real-world applications, I'm committed to pushing boundaries and making meaningful contributions in both medical and cybersecurity domains.
+I thrive on continuous learning—whether through building side projects like an NLP-driven financial chatbot, or mastering new frameworks and tools. I’m especially driven by opportunities to make data science both practical and impactful.
 
-Feel free to join me on this exciting journey! You can reach out to me via Email or connect on [LinkedIn](https://www.linkedin.com/in/wei-han-zoe-hsu-62b58a158).
+Feel free to explore my work or reach out via Email or [LinkedIn](https://www.linkedin.com/in/weihanz-hsu/). Let’s connect!
